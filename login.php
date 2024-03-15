@@ -13,16 +13,17 @@
     <div class="container">
         <div class="row justify-content-center mt-5">
             <div class="col-md-6">
-                < action="result.php" method="POST" class="mt-4">
+                <form action="result.php" method="POST" class="mt-4">
                     <div class="form-group">
                         <label for="username">UserName:</label>
                         <input type="text" class="form-control" id="username" name="username" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="password">Mật khẩu:</label>
+                        <label for="password">Password:</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
             </div>
         </div>
     </div>
