@@ -15,12 +15,12 @@
             <div class="col-md-6">
                 <form action="result.php" method="POST" class="mt-4">
                     <div class="form-group">
-                        <label for="username">UserName:</label>
+                        <label for="username">ten dang nhap:</label>
                         <input type="text" class="form-control" id="username" name="username" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="password">Password:</label>
+                        <label for="password">mat khau:</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Login</button>
